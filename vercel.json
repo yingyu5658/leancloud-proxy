@@ -14,5 +14,8 @@
       "status": 404,
       "headers": { "Cache-Control": "no-store" }
     }
-  ]
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (compatible; Valine-Proxy/1.0; +https://github.com/yingyu5658/leancloud-proxy/)"
+  }
 }
