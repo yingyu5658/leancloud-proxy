@@ -9,5 +9,6 @@
         "Access-Control-Allow-Headers": "Content-Type,X-LC-Id,X-LC-Key"
       }
     }
-  ]
+  ],
+  "redirects": []
 }
