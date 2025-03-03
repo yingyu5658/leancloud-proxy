@@ -2,19 +2,12 @@
   "routes": [
     {
       "src": "/leancloud/(.*)",
-      "methods": ["GET", "POST", "OPTIONS"],
       "dest": "https://ob3nrzua.api.lncldglobal.com/1.1/$1",
       "headers": {
         "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, X-LC-Id, X-LC-Key",
-        "Access-Control-Max-Age": "86400"
+        "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type,X-LC-Id,X-LC-Key"
       }
-    },
-    {
-      "src": "/leancloud/1.1/(.*)",
-      "status": 404,
-      "headers": { "Cache-Control": "no-store" }
     }
   ]
 }
