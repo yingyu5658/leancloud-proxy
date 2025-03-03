@@ -6,7 +6,9 @@
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type,X-LC-Id,X-LC-Key"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+        "Referer": "https://www.yingyu5658.cn",
+        "X-Forwarded-For": "66.33.60.34"  // Vercel 边缘节点 IP
       }
     }
   ]
