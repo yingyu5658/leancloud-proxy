@@ -7,11 +7,12 @@
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, X-LC-Id, X-LC-Key"
+        "Access-Control-Allow-Headers": "Content-Type, X-LC-Id, X-LC-Key",
+        "Access-Control-Max-Age": "86400"
       }
     },
     {
-      "src": "/leancloud/1.1/classes/Comment",
+      "src": "/leancloud/1.1/(.*)",
       "status": 404,
       "headers": { "Cache-Control": "no-store" }
     }
